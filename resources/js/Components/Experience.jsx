@@ -1,38 +1,45 @@
 function Experience() {
     const jobs = [
         {
-            role: 'Web App Developer | Information System Analyst II',
-            org: 'City College of Cagayan de Oro',
-            period: 'February 2024 – Present',
+            role: "IT Technical Support Specialist | Front-end Developer",
+            org: "Department of Trade and Industry - 10",
+            period: "March 2026 – Present",
             points: [
-                'Maintained 99% system uptime for institutional web applications and services.',
-                'Developed and deployed multiple institutional systems: City College of Cagayan de Oro website, SmartChive document repository, Attendium attendance system, Courseware LMS platform.',
-                'Implemented AI chatbot automation, handling up to 100% of common user inquiries.',
-                'Reduced manual reporting workload by approximately 40% using system and automation.',
-                'Deployed AI chatbot on the website, providing 100% automated responses.',
-                'Provided technical support for system and network issues, including troubleshooting and maintenance, ensuring 99% operational uptime for institutional systems, network connectivity, and printer services.',
+                "Maintain office systems, network infrastructure, servers, security devices, and endpoint computers to keep daily operations stable and secure.",
+                "Build and improve responsive web interfaces and internal digital tools to support day-to-day workflows and public services.",
+                "Provide technical troubleshooting, system deployment, preventive maintenance, and user support for regional office personnel.",
+            ],
+        },
+
+        {
+            role: "Web Application Developer | Information Systems Analyst II",
+            org: "City College of Cagayan de Oro",
+            period: "February 2024 – March 2026",
+            points: [
+                "Developed and maintained institutional web applications used by students, faculty, and staff.",
+                "Built and deployed several systems, including the official college website, SmartChive document repository, Attendium attendance system, and Courseware LMS platform.",
+                "Improved administrative processes by creating tools that reduced repetitive work and made information easier to access.",
+                "Provided troubleshooting and support for system issues, network connectivity, and printer services to maintain reliable operations.",
             ],
         },
         {
-            role: 'System Administrator | Systems AI Solution',
-            org: 'Skunkworks PH',
-            period: 'August 2023 – February 2024',
+            role: "Systems Administrator",
+            org: "Skunkworks PH",
+            period: "August 2023 – February 2024",
             points: [
-                'Managed and maintained system infrastructure, ensuring stable operation, security, and optimal performance of servers and network services.',
-                'Monitored system health and logs, performed troubleshooting and issue resolution to minimize downtime and maintain service availability.',
-                'Conducted system updates, patch management, and maintenance to improve infrastructure reliability and operational efficiency.',
-                'Performed system testing and validation of AI camera solutions, ensuring accurate deployment, functionality, and integration within the network environment.',
+                "Managed system infrastructure to keep servers, network services, and connected devices operating reliably.",
+                "Monitored infrastructure health, resolved operational issues, and supported updates and maintenance tasks to minimize downtime.",
+                "Assisted in testing and deploying technology solutions in live environments to ensure they worked properly and met operational needs.",
             ],
         },
         {
-            role: 'Network Specialist / IT Support',
-            org: 'City College of Cagayan de Oro',
-            period: 'October 2022 – August 2023',
+            role: "Network Specialist / IT Support",
+            org: "City College of Cagayan de Oro",
+            period: "October 2022 – August 2023",
             points: [
-                'Installed access points with multi-WAN configuration, achieving 95% building connectivity and seamless network performance.',
-                'Designed and implemented the college\'s network infrastructure, deploying 100% of planned configurations across multiple buildings.',
-                'Maintained network operations, proactively resolving issues and ensuring >95% uptime, catering to and resolving 95% of daily tickets.',
-                'Supported faculty and staff with technical guidance, improving IT adoption and operational efficiency.',
+                "Installed and configured network access points and multi-WAN setups to improve connectivity across campus buildings.",
+                "Helped design and implement college network infrastructure to support academic and administrative operations.",
+                "Resolved day-to-day network and device issues while supporting faculty and staff with technical guidance.",
             ],
         },
     ];
@@ -46,8 +53,12 @@ function Experience() {
                         <article key={i} className="portfolio-timeline__item">
                             <div className="portfolio-timeline__header">
                                 <h3>{job.role}</h3>
-                                <p className="portfolio-timeline__org">{job.org}</p>
-                                <p className="portfolio-timeline__period">{job.period}</p>
+                                <p className="portfolio-timeline__org">
+                                    {job.org}
+                                </p>
+                                <p className="portfolio-timeline__period">
+                                    {job.period}
+                                </p>
                             </div>
                             <ul className="portfolio-timeline__points">
                                 {job.points.map((point, j) => (

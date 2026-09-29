@@ -13,6 +13,18 @@
         <link href="https://fonts.cdnfonts.com/css/garet" rel="stylesheet">
         <link rel="icon" type="image/png" href="/favicon.png">
 
+        <script>
+            try {
+                const savedTheme = localStorage.getItem('portfolio-theme');
+                document.documentElement.setAttribute(
+                    'data-theme',
+                    savedTheme === 'dark' ? 'dark' : 'light'
+                );
+            } catch (error) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        </script>
+
         @viteReactRefresh
         @vite(['resources/css/app.css', 'resources/js/app.jsx'])
         <style>

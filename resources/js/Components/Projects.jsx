@@ -1,31 +1,57 @@
 const PROJECTS = [
     {
-        title: 'City College of Cagayan de Oro Website',
-        subtitle: 'Designed and developed the institution\'s official website with a dynamic CMS and AI integration, improving accessibility of academic information and digital services for students and staff.',
-        role: 'Web App Developer',
-        url: 'https://citycollegecdo.edu.ph',
-        domain: 'citycollegecdo.edu.ph',
+        title: "NormInvest",
+        subtitle:
+            "An investment portal connecting businesses with opportunities, services, incentives, and support across Northern Mindanao.",
+        role: "Web App Developer",
+        url: "https://norminvest.dti.gov.ph/",
+        domain: "norminvest.dti.gov.ph",
+        preview: "/images/norminvest.png",
     },
     {
-        title: 'SmartChive',
-        subtitle: 'Designed and developed a centralized AI-powered repository system that streamlines document management and enables faster retrieval of institutional records across departments.',
-        role: 'Web App Developer',
-        url: 'https://smartchive.citycollegecdo.edu.ph',
-        domain: 'smartchive.citycollegecdo.edu.ph',
+        title: "Island Hopper Landscape Supplies",
+        subtitle:
+            "A company website presenting landscape materials, product categories, and outdoor project supplies for Long Island customers.",
+        role: "Web App Developer",
+        url: "https://islandhopperlandscape.com/",
+        domain: "islandhopperlandscape.com",
+        preview: "/images/island-hopper.png",
     },
     {
-        title: 'Attendium',
-        subtitle: 'Designed and developed a faculty attendance management system with AI chatbot integration, reducing manual reporting and improving administrative efficiency.',
-        role: 'Web App Developer',
-        url: 'https://attendium.citycollegecdo.edu.ph',
-        domain: 'attendium.citycollegecdo.edu.ph',
+        title: "City College of Cagayan de Oro Website",
+        subtitle:
+            "Built the institution's official website to make academic and administrative information easier for students, faculty, and the public to access.",
+        role: "Web App Developer",
+        url: "https://citycollegecdo.edu.ph",
+        domain: "citycollegecdo.edu.ph",
+        preview: "/images/projects/city-college-home.png",
     },
     {
-        title: 'Courseware',
-        subtitle: 'Designed and developed a web-based courseware LMS platform enabling digital course delivery and streamlined access to learning materials.',
-        role: 'Web App Developer',
-        url: 'https://courseware.citycollegecdo.edu.ph',
-        domain: 'courseware.citycollegecdo.edu.ph',
+        title: "SmartChive",
+        subtitle:
+            "Developed a centralized repository for organizing and retrieving institutional records more efficiently across departments.",
+        role: "Web App Developer",
+        url: "https://smartchive.citycollegecdo.edu.ph",
+        domain: "smartchive.citycollegecdo.edu.ph",
+        preview: "/images/projects/smartchive-home.png",
+    },
+    {
+        title: "Attendium",
+        subtitle:
+            "Created a faculty attendance system to simplify daily tracking, reporting, and administrative monitoring.",
+        role: "Web App Developer",
+        url: "https://attendium.citycollegecdo.edu.ph",
+        domain: "attendium.citycollegecdo.edu.ph",
+        preview: "/images/projects/attendium-home.png",
+    },
+    {
+        title: "Courseware",
+        subtitle:
+            "Built a learning platform that improved access to course materials and supported digital learning workflows.",
+        role: "Web App Developer",
+        url: "https://courseware.citycollegecdo.edu.ph",
+        domain: "courseware.citycollegecdo.edu.ph",
+        preview: "/images/projects/courseware-home.png",
     },
 ];
 
@@ -37,20 +63,34 @@ function ProjectCard({ project }) {
             rel="noopener noreferrer"
             className="portfolio-card"
         >
-            <span className="portfolio-card__role">{project.role}</span>
-            <h3 className="portfolio-card__title">{project.title}</h3>
-            <p className="portfolio-card__subtitle">{project.subtitle}</p>
-            <span className="portfolio-card__link">{project.domain} ↗</span>
+            <img
+                className="portfolio-card__preview"
+                src={project.preview}
+                alt={`${project.title} landing page preview`}
+                loading="lazy"
+                decoding="async"
+            />
+            <div className="portfolio-card__body">
+                <span className="portfolio-card__role">{project.role}</span>
+                <h3 className="portfolio-card__title">{project.title}</h3>
+                <p className="portfolio-card__subtitle">{project.subtitle}</p>
+                <span className="portfolio-card__link">{project.domain} ↗</span>
+            </div>
         </a>
     );
 }
 
 function Projects() {
     return (
-        <section id="projects" className="portfolio-section portfolio-section--alt">
+        <section
+            id="projects"
+            className="portfolio-section portfolio-section--alt"
+        >
             <div className="portfolio-container">
                 <h2 className="portfolio-section__title">Projects</h2>
-                <p className="portfolio-section__lead">Production systems I’ve built or contributed to.</p>
+                <p className="portfolio-section__lead">
+                    Production systems I’ve built or contributed to.
+                </p>
                 <div className="portfolio-projects">
                     {PROJECTS.map((project, i) => (
                         <ProjectCard key={i} project={project} />

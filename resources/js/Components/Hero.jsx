@@ -1,26 +1,69 @@
 function Hero() {
     return (
         <section id="hero" className="portfolio-hero">
-            <div className="portfolio-hero__spline">
-                <iframe
-                    src="https://my.spline.design/robotfollowcursorforlandingpage-IJtPzxDQCnY2L0FMK8s8h9yj/"
-                    frameBorder="0"
-                    width="100%"
-                    height="100%"
-                    title="3D Robot"
-                />
-            </div>
-            <div className="portfolio-hero__cta-wrap">
-                <a
-                    href="#contact"
-                    className="portfolio-cta portfolio-hero__cta"
-                    onClick={(e) => {
-                        e.preventDefault();
-                        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-                    }}
+            <div className="portfolio-container portfolio-hero__inner">
+                <div className="portfolio-hero__content">
+                    <p className="portfolio-hero__eyebrow">
+                        IT Support • Web Development
+                    </p>
+                    <h1 className="portfolio-hero__headline">
+                        I build digital systems that help people work better.
+                    </h1>
+                    <p className="portfolio-hero__text">
+                        I’m Fhel Jhon Feliciano, a web developer and IT support
+                        specialist focused on dependable systems, practical
+                        tools, and user-friendly digital experiences that
+                        support real work.
+                    </p>
+
+                    <div className="portfolio-hero__actions">
+                        <a
+                            href="#projects"
+                            className="portfolio-cta portfolio-hero__primary"
+                        >
+                            View projects
+                        </a>
+                        <a
+                            href="#contact"
+                            className="portfolio-hero__secondary"
+                        >
+                            Contact me
+                        </a>
+                    </div>
+
+                    <div
+                        className="portfolio-hero__meta"
+                        aria-label="Core focus areas"
+                    >
+                        <span>Web apps</span>
+                        <span>IT support</span>
+                        <span>System reliability</span>
+                    </div>
+                </div>
+
+                <div
+                    className="portfolio-hero__panel"
+                    aria-label="Professional strengths"
                 >
-                    Get in touch
-                </a>
+                    <div className="portfolio-hero__panel-card">
+                        <span className="portfolio-hero__panel-label">
+                            Core focus
+                        </span>
+                        <strong>Web development</strong>
+                    </div>
+                    <div className="portfolio-hero__panel-card">
+                        <span className="portfolio-hero__panel-label">
+                            Operations
+                        </span>
+                        <strong>System support</strong>
+                    </div>
+                    <div className="portfolio-hero__panel-card">
+                        <span className="portfolio-hero__panel-label">
+                            Approach
+                        </span>
+                        <strong>Practical solutions</strong>
+                    </div>
+                </div>
             </div>
         </section>
     );
