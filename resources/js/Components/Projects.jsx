@@ -6,7 +6,7 @@ const PROJECTS = [
         role: "Web App Developer",
         url: "https://norminvest.dti.gov.ph/",
         domain: "norminvest.dti.gov.ph",
-        preview: "/images/norminvest.png",
+        preview: "/images/norminvest.webp",
     },
     {
         title: "Island Hopper Landscape Supplies",
@@ -15,7 +15,7 @@ const PROJECTS = [
         role: "Web App Developer",
         url: "https://islandhopperlandscape.com/",
         domain: "islandhopperlandscape.com",
-        preview: "/images/island-hopper.png",
+        preview: "/images/island-hopper.webp",
     },
     {
         title: "City College of Cagayan de Oro Website",
@@ -24,7 +24,7 @@ const PROJECTS = [
         role: "Web App Developer",
         url: "https://citycollegecdo.edu.ph",
         domain: "citycollegecdo.edu.ph",
-        preview: "/images/projects/city-college-home.png",
+        preview: "/images/projects/city-college-home.webp",
     },
     {
         title: "SmartChive",
@@ -33,7 +33,7 @@ const PROJECTS = [
         role: "Web App Developer",
         url: "https://smartchive.citycollegecdo.edu.ph",
         domain: "smartchive.citycollegecdo.edu.ph",
-        preview: "/images/projects/smartchive-home.png",
+        preview: "/images/projects/smartchive-home.webp",
     },
     {
         title: "Attendium",
@@ -42,7 +42,7 @@ const PROJECTS = [
         role: "Web App Developer",
         url: "https://attendium.citycollegecdo.edu.ph",
         domain: "attendium.citycollegecdo.edu.ph",
-        preview: "/images/projects/attendium-home.png",
+        preview: "/images/projects/attendium-home.webp",
     },
     {
         title: "Courseware",
@@ -51,7 +51,7 @@ const PROJECTS = [
         role: "Web App Developer",
         url: "https://courseware.citycollegecdo.edu.ph",
         domain: "courseware.citycollegecdo.edu.ph",
-        preview: "/images/projects/courseware-home.png",
+        preview: "/images/projects/courseware-home.webp",
     },
 ];
 
