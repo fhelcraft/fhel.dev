@@ -20,6 +20,7 @@ function Footer() {
                             <a href="#skills">Skills</a>
                             <a href="#experience">Experience</a>
                             <a href="#projects">Projects</a>
+                            <a href="#engagement">Engagement</a>
                         </nav>
                     </div>
                     <div className="portfolio-footer__column">

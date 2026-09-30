@@ -22,6 +22,7 @@ function Nav() {
         { id: "skills", label: "Skills" },
         { id: "experience", label: "Experience" },
         { id: "projects", label: "Projects" },
+        { id: "engagement", label: "Engagement" },
         { id: "education", label: "Education" },
         { id: "contact", label: "Contact" },
     ];
