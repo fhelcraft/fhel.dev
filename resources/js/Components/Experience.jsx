@@ -34,7 +34,7 @@ function Experience() {
         },
         {
             role: "Network Specialist / IT Support",
-            org: "Cagayan de Oro Technival Vocational Institute",
+            org: "Cagayan de Oro Technical Vocational Institute",
             period: "October 2022 – August 2023",
             points: [
                 "Installed and configured network access points and multi-WAN setups to improve connectivity across campus buildings.",

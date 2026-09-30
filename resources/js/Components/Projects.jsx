@@ -98,7 +98,7 @@ function Projects() {
             <div className="portfolio-container">
                 <h2 className="portfolio-section__title">Projects</h2>
                 <p className="portfolio-section__lead">
-                    Production systems I’ve built or contributed to.
+                    Production systems I’ve built and contributed.
                 </p>
                 <div className="portfolio-projects">
                     {PROJECTS.map((project, i) => (
