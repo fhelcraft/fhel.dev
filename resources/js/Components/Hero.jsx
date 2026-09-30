@@ -4,14 +4,14 @@ function Hero() {
             <div className="portfolio-container portfolio-hero__inner">
                 <div className="portfolio-hero__content">
                     <p className="portfolio-hero__eyebrow">
-                        IT Support • Web Development
+                        System Administration • Web Development
                     </p>
                     <h1 className="portfolio-hero__headline">
                         I build digital systems that help people work better.
                     </h1>
                     <p className="portfolio-hero__text">
-                        I’m Fhel Jhon Feliciano, a web developer and IT support
-                        specialist focused on dependable systems, practical
+                        I’m Fhel Jhon Feliciano, a System administrator and Web
+                        developer focused on dependable systems, practical
                         tools, and user-friendly digital experiences that
                         support real work.
                     </p>
@@ -31,14 +31,15 @@ function Hero() {
                         </a>
                     </div>
 
-                    <div
+                    {/* <div
                         className="portfolio-hero__meta"
                         aria-label="Core focus areas"
                     >
-                        <span>Web apps</span>
+                        <span>System administration</span>
                         <span>IT support</span>
+                        <span>Web development</span>
                         <span>System reliability</span>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div

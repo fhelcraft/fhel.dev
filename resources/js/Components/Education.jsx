@@ -20,7 +20,8 @@ function Education() {
                         <li>1st Honor Dean&apos;s Lister (2022) 4th Year</li>
                         <li>2nd Honor Dean&apos;s Lister (2021) 3rd Year</li>
                     </ul>
-                    <p className="portfolio-education__org">
+                    <br />
+                    <p className="portfolio-education__org ">
                         Golden Heritage Institute
                     </p>
                     <p className="portfolio-education__course">

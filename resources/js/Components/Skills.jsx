@@ -1,20 +1,23 @@
 function Skills() {
     const general = [
-        'Customer Support / IT Support',
-        'DNS Management',
-        'Web App Development',
-        'AI Integration',
+        "Customer Support / IT Support",
+        "DNS Management",
+        "Web App Development",
+        "AI Integration",
     ];
     const tech = [
-        { label: 'Frameworks', items: ['Laravel'] },
-        { label: 'Libraries', items: ['React.JS', 'Javascript'] },
-        { label: 'Languages', items: ['PHP'] },
-        { label: 'Databases', items: ['MySQL', 'Supabase'] },
-        { label: 'Tools', items: ['cPanel', 'Github'] },
+        { label: "Frameworks", items: ["Laravel", "Astro", "Tailwind"] },
+        { label: "Libraries", items: ["React.JS", "Javascript"] },
+        { label: "Languages", items: ["PHP"] },
+        { label: "Databases", items: ["MySQL", "Supabase"] },
+        { label: "Tools", items: ["cPanel", "Github", "Figma", "CI/CD"] },
     ];
 
     return (
-        <section id="skills" className="portfolio-section portfolio-section--alt">
+        <section
+            id="skills"
+            className="portfolio-section portfolio-section--alt"
+        >
             <div className="portfolio-container">
                 <h2 className="portfolio-section__title">Skills</h2>
                 <div className="portfolio-skills">
@@ -28,11 +31,19 @@ function Skills() {
                     </div>
                     <div className="portfolio-skills__tech">
                         {tech.map(({ label, items }) => (
-                            <div key={label} className="portfolio-skills__group">
+                            <div
+                                key={label}
+                                className="portfolio-skills__group"
+                            >
                                 <h3>{label}</h3>
                                 <div className="portfolio-skills__tags">
                                     {items.map((item) => (
-                                        <span key={item} className="portfolio-tag">{item}</span>
+                                        <span
+                                            key={item}
+                                            className="portfolio-tag"
+                                        >
+                                            {item}
+                                        </span>
                                     ))}
                                 </div>
                             </div>

@@ -13,7 +13,7 @@ function About() {
                         Fhel Jhon V. Feliciano
                     </h1>
                     <p className="portfolio-intro__title">
-                        IT Support Specialist • Web Developer
+                        System Administrator & Web Developer
                     </p>
                     <p className="portfolio-intro__location">
                         Cagayan de Oro, Philippines
@@ -24,15 +24,14 @@ function About() {
                     <div>
                         <h2 className="portfolio-section__title">About Me</h2>
                         <p className="portfolio-about__text">
-                            I work at the intersection of IT support and web
-                            development, helping institutions and teams keep
-                            their digital systems running smoothly while also
-                            building practical tools that make daily work
+                            I work at the intersection of system administration
+                            and web development, helping organization and teams
+                            keep their digital systems running smoothly while
+                            also building practical tools that make daily work
                             easier. With almost four years of experience, I’ve
-                            supported network and system operations, developed
-                            web applications, and helped improve how people
-                            access and use information across different
-                            workflows.
+                            supported network, system operations, developed web
+                            applications, and helped improve how people access
+                            and use information across different workflows.
                         </p>
                     </div>
 

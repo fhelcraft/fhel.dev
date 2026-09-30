@@ -6,6 +6,7 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import Education from "./Education";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 <Education />
                 <Contact />
             </main>
+            <Footer />
         </div>
     );
 }

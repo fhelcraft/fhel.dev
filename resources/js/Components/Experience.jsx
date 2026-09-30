@@ -1,8 +1,8 @@
 function Experience() {
     const jobs = [
         {
-            role: "IT Technical Support Specialist | Front-end Developer",
-            org: "Department of Trade and Industry - 10",
+            role: "System Administrator | Front-end Developer",
+            org: "Department of Trade and Industry - Region 10",
             period: "March 2026 – Present",
             points: [
                 "Maintain office systems, network infrastructure, servers, security devices, and endpoint computers to keep daily operations stable and secure.",
@@ -12,7 +12,7 @@ function Experience() {
         },
 
         {
-            role: "Web Application Developer | Information Systems Analyst II",
+            role: "System Administrator | Web Application Developer",
             org: "City College of Cagayan de Oro",
             period: "February 2024 – March 2026",
             points: [
@@ -34,7 +34,7 @@ function Experience() {
         },
         {
             role: "Network Specialist / IT Support",
-            org: "City College of Cagayan de Oro",
+            org: "Cagayan de Oro Technival Vocational Institute",
             period: "October 2022 – August 2023",
             points: [
                 "Installed and configured network access points and multi-WAN setups to improve connectivity across campus buildings.",
